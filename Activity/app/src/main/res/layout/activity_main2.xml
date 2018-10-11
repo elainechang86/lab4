@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".aty2">
 
     <TextView
         android:id="@+id/textView9"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -52,7 +52,7 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -60,7 +60,7 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -68,7 +68,7 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -94,7 +94,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -102,7 +102,7 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/radioButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -110,7 +110,7 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/radioButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -119,7 +119,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/sent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="送出"
